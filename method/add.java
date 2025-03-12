@@ -1,12 +1,12 @@
 public class add{
-    int add(int a, int b){
+    void add(int a, int b){
         int c=a+b;
-        return c; 
+        System.out.println(c); 
     }
     public static void main(String args[]){
         add van = new add();
-        int l = van.add(33,55);
-        System.out.println(l);
+        van.add(33,55);
+
     }
 
 }
